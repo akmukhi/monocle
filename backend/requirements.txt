@@ -4,6 +4,10 @@ uvicorn[standard]==0.34.2
 # Settings / env
 pydantic-settings==2.10.1
 
+# Auth / security
+python-jose[cryptography]==3.5.0
+passlib[bcrypt]==1.7.4
+
 # Database
 SQLAlchemy==2.0.43
 alembic==1.16.5

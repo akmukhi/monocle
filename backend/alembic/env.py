@@ -8,6 +8,7 @@ from sqlalchemy import engine_from_config, pool
 
 from app.core.config import get_settings
 from app.db.base import Base
+from app import models  # noqa: F401
 
 # If you add models, ensure they're imported so Base.metadata is populated.
 # Example:
